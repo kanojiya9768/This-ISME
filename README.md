@@ -1,3 +1,1 @@
-# दीस-ISME
-
-This is My Personal Portfolio 
+# दीस-ISME (PERSONAL PORTFOLIO)
