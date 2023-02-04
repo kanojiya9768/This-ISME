@@ -432,6 +432,14 @@ body{
     }
   }
 
+  @-webkit-keyframes reveals{
+      0%{
+          left : 0;
+      }100%{
+          left : 105%;
+      }
+  }
+
   .header > #profile_summary{
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
