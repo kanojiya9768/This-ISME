@@ -1407,7 +1407,7 @@ body{
 
 @media (max-width : 620px) {
   .skills_container > .work_heading > h1::before{
-    content : 'skills';
+    content : 'works';
     position: absolute;
     top: -15px;
     left: -60px;
