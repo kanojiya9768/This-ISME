@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="css/img/logo.png">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/726/726107.png">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.1.0/progressbar.min.js" integrity="sha512-EZhmSl/hiKyEHklogkakFnSYa5mWsLmTC4ZfvVzhqYNLPbXKAXsjUYRf2O9OlzQN33H0xBVfGSEIUeqt9astHQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -126,6 +126,10 @@
             <div class="cards" data-aos="flip-right">
                 <div id="mongo"></div>
                 <p>MONGO DB</p>
+            </div>
+            <div class="cards" data-aos="flip-right">
+                <div id="excel"></div>
+                <p>MS Excel</p>
             </div>
         </div>
     </div>
@@ -289,13 +293,13 @@
 
 
     <!-- //contact us page  -->
-    <div class="skills_container" id="contact_us">
-        <div class="contact_heading">
+    <div class="skills_container" id="contact_us"  data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+        <div class="contact_heading" data-aos="fade-up">
             <h1>CONTACT ME</h1>
             <div class="line"></div>
         </div>
         <div class="contact_grid">
-            <div class="left_contact">
+            <div class="left_contact" data-aos="fade-left">
                 <p id="left_contact_heading">contact information</p>
                 <p id="left_contact_desc">Here is the full contact detail,You can also contact me by below given details.</p>
                 <div class="line_bar"></div>
@@ -322,7 +326,7 @@
                 </div>
             </div>
 
-            <form  action="https://formspree.io/f/xzbqdlbd" method="POST" class="right_contact_form">
+            <form  action="https://formspree.io/f/xzbqdlbd" method="POST" class="right_contact_form" data-aos="fade-right">
                 <div class="name"><label for="Name">Name</label><input type="text" name="Name" id="Name" placeholder="Enter your name..."></div>
                 <div class="email"><label for="Email">Email</label><input type="email" name="Email" id="Email" placeholder="Enter your email..."></div>
                 <div class="subject"><label for="Subject">Subject</label><input type="text" name="Subject" id="subject" placeholder="Enter subject..."></div>
